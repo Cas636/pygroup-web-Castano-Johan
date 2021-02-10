@@ -1,0 +1,667 @@
+/*familia de fuentes: 'Montserrat', sans-serif;*/
+/*font-family: 'Conv_Quicksand_Light'*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: white
+}
+.cabezote{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}
+.papa-cabezote{
+    width: 100%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 200px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    height: 100px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  .bmenu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: rgb(239, 153, 93);
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #141F49;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+
+/*ESTILOS PARA EL HOME O INDEX*/
+.historia{
+    width:100%;
+    margin: 0;
+}
+
+.tres-columnas{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+.contenedor-imagen-tres{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+
+.tres-columnas img{
+    width: 80%;
+    
+}
+
+.dos-columnas{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+.contenedor-imagen{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    border: 1px solid white;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+
+.dos-columnas img{
+    width: 85%;
+    
+}
+
+.baner{
+    width:100%;
+    margin:auto;
+    background-color: #E79664;
+}
+
+.hijo-baner{
+    width: 90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    padding: 30px 20px;
+}
+
+.hijo-baner img{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.suscripcion{
+    width: 100%;
+    text-align: center;
+    padding: 50px 60px;
+    color: #54A09F;
+}
+
+.suscripcion .titulo p{
+    font-family:'Mianty';
+    font-size: 4em;
+    color: #141F49;
+}
+
+.suscripcion .tipos{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.suscripcion .tipos label{
+    padding: 10px 50px;
+    color: #54A09F;
+}
+
+.suscripcion .terminos{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/*ACA COMIENZA EN FOOTER*/
+
+.pie{
+    background-color:white;
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    object-position: center center;
+}
+
+.papa-pie .imagenlogo{
+    width: 100%;
+    margin: 0;
+}
+.papa-pie .imagenlogo img{
+    width: 250px;
+    justify-content: center;
+    padding: 0 0 0 80px;
+        
+}
+.hijo-pie-redes ul{
+     list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+    
+.hijo-pie-redes li{
+    
+}
+
+
+.hijo-pie-redes a img{
+    width: 50px;
+    padding: 30px 0;
+}
+
+
+.slider{
+    
+}
+
+.papa-slider{
+    padding-top:110px;
+    margin: auto;
+    
+}
+
+#slider{
+    object-fit: cover;
+}
+
+#slider img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.formulario{}
+.papa-formulario{font-family: 'Montserrat', sans-serif;padding: 200px 100px}
+
+.mapa{}
+.papa-mapa{width: 100%;margin: auto}
+.el-mapa{width:100%}
+
+
+/*ACA COMIENZA LA SECCION NOSOTROS*/
+
+.nosotros-historia{
+    width: 100%;
+    padding: 90px 30px 0 30px;
+    display: flex;
+}
+
+.nosotros-historia .dos-columnas{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 40px 0;
+    
+    
+}
+
+.nosotros-historia .texto{
+    width: 100%;
+    text-align: center;
+    
+        
+    
+}
+.nosotros-historia .texto p{
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    font-family:'APOLLO';
+    font-size: 1.5rem;
+    color: #141F49;
+    letter-spacing: 3px;
+    padding: 0 50px 0 50px;
+    
+}
+
+.nosotros-historia .dos-columnas .imagen{
+    width: 100%;
+}
+
+.nosotros-historia .dos-columnas img{
+    width: 100%;
+}
+
+.cuadricula{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+
+.papa-cuadri{
+    width: 33%;
+    overflow: hidden;
+    object-position: center center;
+    margin: 50px;
+}
+
+.papa-cuadri img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.papa-cuadri .titulo{
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: #141F49;
+}
+
+/*ACA EMPIEZAN LOS ESTILOS DE LA TIENDA*/
+
+.tienda{
+    margin: auto;
+    padding: 60px 20px 0 20px;
+    width: 100%;
+    display: flex;
+}
+
+.papa-tienda{
+    width: 33%;
+    overflow: hidden;
+    object-position: center center;
+    margin: 50px 40px 0 40px;
+}
+
+.papa-tienda img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.papa-tienda .titulo{
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: #141F49;
+}
+
+.avisowhat{
+    width: 100%;
+    display: flex;
+    margin: 100px 0px;
+}
+
+.avisowhat .texto{
+    width: 100%;
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: #141F49;
+    letter-spacing: 3px;
+    padding: 0;
+    
+}
+
+.avisowhat img{
+    width: 50%;
+}
+
+.seguimiento{
+    width: 100%;
+    justify-content: center;
+    object-position: center center;
+    object-fit: cover;
+ 
+}
+
+.seguimiento .texto{
+    width: 100%;
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: rgb(239, 153, 93);
+}
+
+.seguimiento .segumiento-imagen{
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.seguimiento img{
+    width: 100%;
+
+}
+
+
+/*ACA EMPIEAN LOS ESTILOS DE INSPIRACION*/
+
+.mision{
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.foto-mision{
+    justify-content: center;
+    padding: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.foto-mision img{
+    width: 80%;
+}
+
+.banerdos{
+    width:100%;
+    margin:auto;
+    background-color: #54A09F;
+}
+
+.hijo-baner{
+    width: 90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    padding: 30px 20px;
+}
+
+.hijo-baner img{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.doble{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.doble img{
+    width: 70%;
+}
+
+/*ACA EMPIEZAN LOS ESTILOS DEL CONTACTO*/
+
+.compra{
+    width: 100%;
+    display: flex;
+    padding: 120px 20px 10px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.compra img{
+    width: 100%;
+}
+
+.compra .pse{
+    width: 100px;
+    padding-top: 30px;
+    
+}
+
+.compra .bancolombia{
+    width: 300px;
+}
+
+.texto{
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    font-family:'APOLLO';
+    font-size: 1.5rem;
+    color: #141F49;
+    letter-spacing: 3px;
+    padding: 20px 100px;
+}
+
+.texto-comunicate{
+    width: 100%;
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: rgb(239, 153, 93);
+}
+
+.contacto{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contacto img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacto .texto-contacto{
+    width: 100%;
+    font-family:'APOLLO';
+    font-size: 1.5rem;
+    color: #141F49;
+    padding: 20px 0 20px 10px;
+    
+}
+
+.redes{
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    font-family:'APOLLO';
+    font-size: 1.5rem;
+    color: #141F49;
+    letter-spacing: 3px;
+    padding: 20px 100px;
+}
+
+.visitar{
+    width: 100%;
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: rgb(239, 153, 93);
+}
+
+
+.texto-redes{
+    width: 100%;
+    text-align: center;
+    font-family:'Mianty';
+    font-size: 4em;
+    color: rgb(239, 153, 93);
+}
+
+.redes-hijo{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.redes img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.redes .texto-redes{
+    width: 100%;
+    font-family:'APOLLO';
+    font-size: 1.5rem;
+    color: #141F49;
+    padding: 20px 0 20px 10px;
+    
+}
+
+
+/*Estilos de la barra de navegar*/
+
+  @media (max-width: 952px){
+     label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    .bmenu nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+      
+.bmenu .checkbtn{
+      display: block;
+        background-color: #141F49;
+        padding: 2px 5px;
+        z-index: 99;
+    }
+.bmenu ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+        z-index: 99;
+       
+
+    
+    }
+.papa-bmenu nav ul li{
+      margin: 50px 0;
+      line-height: 30px;
+    z-index: 99;
+    
+    }
+      
+.bmenu ul li{
+          display: block;
+         z-index: 99;
+      }
+.papa-bmenu nav ul li a{
+      font-size: 20px;
+    }
+.papa-bmenu a:hover,a.active{
+      background: none;
+      color: white;
+        list-style: none;
+    z-index: 99;
+    }
+.bmenu #check:checked ~ ul{
+      left: 0;
+    z-index: 99;
+    }
+      
+      
+      
+  }
+/*
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }*/
+
+
+@media (max-width:480px){
+    .historia{
+    }
+    
+    .tres-columnas{
+    display: none;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+    
+    .contenedor-imagen-tres{
+    height: 60vh;
+    
+}
+
+.tres-columnas img{
+    width: 100%;
+    
+}
+    
+ .foto-mision img{
+    width: 100%;
+}   
+    
+}
